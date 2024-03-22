@@ -1,1 +1,1 @@
-# JavaScript-Example
+This is a basic example of how javascript works, the page asks for your name as soon as the page is opened and the name entered is displayed in the middle of the webpage along with a greeting depending on the local time also it contains a link to another webpage containting a video of a rickroll which gets activated only when a particular key is pressed on the keyboard.
