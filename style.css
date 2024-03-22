@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    color: white;
+    font-family: montserrat;
+    font-size: 30px;
+}
+
+.js {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+    animation: glow 1.5s infinite alternate;
+}
+.js-ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: 100px;
+    color: #fff5ee;
+}
+#t{
+    font-family: BatmanForeverAlternate;
+    color: #660000;
+}
+#n{
+    font-family: transformers;
+    color: #23AD23;
+}
+
+body{
+    background-color: #221620;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+}
+.ul{
+    list-style-type: none;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+   font-size: 20px;
+   line-height: 30px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.hidden-para{
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+.hidden-para:hover{
+    opacity: 1;
+}

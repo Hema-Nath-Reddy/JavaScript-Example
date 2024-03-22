@@ -1,0 +1,19 @@
+@media screen and (max-width: 720px) {
+    .heading{
+        font-size: 20px;
+    }
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+    }
+    100% {
+      text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .ul{
+        font-size: 15px;
+    }
+}
